@@ -133,3 +133,36 @@ footer img {
   margin: 0 1rem;
 }
 
+
+/* Media Query for Tablet Screens in Landscape Mode */
+@media only screen and (max-width: 900px) {
+
+  /* Header  */
+  .header { /* Header  */
+    height: 22rem;
+    background-size: revert;
+  }
+
+  /* Navigation */
+  nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Banner Text Header  */
+  .bannerText {
+    margin: 5rem 2rem 0 0;
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+
+  /* Gallery */
+  .gallery {
+    width: 100%;
+  }
+}
+
+/* Media Query for Mobile Phones in Landscape Mode */
+@media only screen and (max-width: 640px) {
+  
+}
