@@ -1,0 +1,135 @@
+
+/* General Selectors */
+* {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Header Section class 'header' */
+
+.header {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+}
+
+nav { /* Navigation Bar Container */
+  width: 960px;
+  display: inline-flex;
+  align-items: center;
+  background-color: cadetblue;
+  margin-top: 1rem;
+  color: white;
+}
+
+nav img {
+  height: 1.5rem;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.navMenu { /* Navigation Menu class 'navMenu' */
+  display: inline-flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.navMenu ul {
+  display: inline-flex;
+  justify-self: flex-end;
+
+}
+
+.navMenu ul li {
+  margin: 1rem 2rem;
+}
+
+.bannerText {
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin: 10rem 15rem;
+  align-self: flex-end;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Content Section class 'container' */
+
+.container {
+  display: flex;
+  width: 960px;
+  margin: 3rem auto 3rem auto;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Gallery Section class 'gallery' */
+
+.gallery {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.galleryItem {
+  height: 8rem;
+  margin: auto 3rem;
+}
+
+.galleryItem img {
+  width: 3.5rem;
+}
+
+.width5Rem {
+  width: 5rem;
+}
+
+/* Supported Content div class 'supportedContent'  */
+
+.supportedContent {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.supportedItem {
+  width: 35%;
+  margin: 3rem 5% 5rem 0;
+}
+
+.supportedItem h4 {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin: 0 0 1rem 0;
+}
+
+/* Footer Section  */
+
+footer {
+  display: inline-flex;
+  width: 100%;
+  padding: 4rem;
+  background-color: azure;
+  justify-content: flex-start;
+
+}
+
+footer div {
+  width: 960px;
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+footer img {
+  height: 1.5rem;
+  margin: 0 1rem;
+}
+
